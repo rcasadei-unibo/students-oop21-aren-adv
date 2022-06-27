@@ -43,6 +43,7 @@ dependencies {
         ?.listFiles()
         ?.filter { it.extension == "jar" }
         ?.forEach { implementation(files("lib/${it.name}")) }
+    implementation("com.google.code.gson:gson:2.9.0")
 }
 
 allprojects {
