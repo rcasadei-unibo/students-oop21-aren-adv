@@ -33,3 +33,5 @@ build
 # Ignore Eclipse preferences
 .settings/*
 .classpath
+.gradle/
+build
